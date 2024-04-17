@@ -1,9 +1,8 @@
 {
   "name": "Better h264ify",
-  "version": "1.2",
+  "version": "1.3.0",
   "manifest_version": 2,
-  "description": "Fixes a few things in h264ify",
- 
+  "description": "__MSG_extensionDescription__",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -15,7 +14,7 @@
       "48": "icons/icon48.png",
       "128": "icons/icon128.png"
     },
-    "default_title": "h264ify",
+    "default_title": "Better h264ify",
     "default_popup": "options.html"
   },
   "content_scripts": [

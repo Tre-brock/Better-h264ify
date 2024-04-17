@@ -6,7 +6,7 @@ function save_options() {
   chrome.storage.local.set({
     enable: enable,
     block_60fps: block_60fps,
-   
+    battery_only: battery_only,
   });
 }
 
@@ -20,7 +20,7 @@ function restore_options() {
   }, function(options) {
     document.getElementById('enable').checked = options.enable;
     document.getElementById('block_60fps').checked = options.block_60fps;
-   
+    document.getElementById('battery_only').checked = options.battery_only;
   });
 }
 
